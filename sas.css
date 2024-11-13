@@ -38,14 +38,14 @@ header nav ul{
     justify-content: space-evenly;
 }
 
-header nav ul a {
+header nav ul a{
     color: var(--secondary-color);
     padding: 8px 16px;
     transition: background-color 0.7s, color 0.7s, transform 0.3s;
     text-shadow: var(--text-shadow);
 }
 
-header nav ul a:hover {
+header nav ul a:hover{
     color: var(--hover-text-color);
     background-color: var(--hover-bg-color);
     transform: scale(1.05);
@@ -61,7 +61,7 @@ header nav ul a:hover {
     background-color: var(--primary-color);
     position: relative;
 }
-#vermelho .bolha {
+#vermelho .bolha{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -85,7 +85,7 @@ header nav ul a:hover {
     text-align: center;
     text-shadow: var(--text-shadow);
     opacity: 0.2;
-    z-index: 0; /* Coloca o h1 atrás da bolha */
+    z-index: 0;
 }
 
 #vermelho .absoluto h2 {
@@ -94,7 +94,7 @@ header nav ul a:hover {
     text-align: center;
     text-shadow: var(--text-shadow);
     opacity: 0.4;
-    z-index: -1; /* Coloca o h2 ainda mais atrás */
+    z-index: -1;
 }
 #vermelho img{
     position: absolute;
